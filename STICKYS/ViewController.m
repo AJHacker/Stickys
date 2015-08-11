@@ -13,6 +13,9 @@
 @end
 
 @implementation ViewController
+-(IBAction) hidetext:(id)sender{
+ [text resignFirstResponder];
+}
 
 - (void)viewDidLoad
 {

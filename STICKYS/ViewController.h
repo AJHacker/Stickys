@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController{
+    IBOutlet UIButton *quittext;
+    IBOutlet UITextView *text;
+}
+-(IBAction)hidetext:(id)sender;
 
 @end
